@@ -1,0 +1,15 @@
+G:\FinalProjectAPIAndMVC\FinalProject\Dtos\bin\Release\net7.0\Dtos.deps.json
+G:\FinalProjectAPIAndMVC\FinalProject\Dtos\bin\Release\net7.0\Dtos.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Dtos\bin\Release\net7.0\Dtos.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\Dtos\bin\Release\net7.0\Domian.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Dtos\bin\Release\net7.0\Domian.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\Dtos\obj\Release\net7.0\Dtos.csproj.AssemblyReference.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Dtos\obj\Release\net7.0\Dtos.GeneratedMSBuildEditorConfig.editorconfig
+G:\FinalProjectAPIAndMVC\FinalProject\Dtos\obj\Release\net7.0\Dtos.AssemblyInfoInputs.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Dtos\obj\Release\net7.0\Dtos.AssemblyInfo.cs
+G:\FinalProjectAPIAndMVC\FinalProject\Dtos\obj\Release\net7.0\Dtos.csproj.CoreCompileInputs.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Dtos\obj\Release\net7.0\Dtos.csproj.CopyComplete
+G:\FinalProjectAPIAndMVC\FinalProject\Dtos\obj\Release\net7.0\Dtos.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Dtos\obj\Release\net7.0\refint\Dtos.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Dtos\obj\Release\net7.0\Dtos.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\Dtos\obj\Release\net7.0\ref\Dtos.dll

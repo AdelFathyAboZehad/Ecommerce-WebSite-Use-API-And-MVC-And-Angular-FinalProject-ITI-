@@ -1,0 +1,14 @@
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\bin\Release\net7.0\Domian.deps.json
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\bin\Release\net7.0\Domian.runtimeconfig.json
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\bin\Release\net7.0\Domian.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\bin\Release\net7.0\Domian.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Release\net7.0\Domian.csproj.AssemblyReference.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Release\net7.0\Domian.GeneratedMSBuildEditorConfig.editorconfig
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Release\net7.0\Domian.AssemblyInfoInputs.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Release\net7.0\Domian.AssemblyInfo.cs
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Release\net7.0\Domian.csproj.CoreCompileInputs.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Release\net7.0\Domian.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Release\net7.0\refint\Domian.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Release\net7.0\Domian.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Release\net7.0\Domian.genruntimeconfig.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Release\net7.0\ref\Domian.dll

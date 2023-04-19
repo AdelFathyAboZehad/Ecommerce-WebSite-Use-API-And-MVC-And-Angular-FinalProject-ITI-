@@ -1,0 +1,127 @@
+﻿
+@model IEnumerable<AdminSiteUseMVC.ViewModel.UserReviews.UserReviewViewModel>
+@inject IViewLocalizer localizer
+
+@*<table class="table text-center table-hover">
+    <thead>
+        <tr class="bg-dark text-light">
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th>
+               
+                @Html.DisplayNameFor(model => model.RatingValue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Comment)
+            </th>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+
+         
+          <th></th>
+        </tr>
+    </thead>
+    <tbody>*@
+
+<h4 style="color:#232F3E;font-weight:bold;"><i class="fa-solid fa-thumbs-up mx-2 " style=" font-size:smaller"></i>@localizer["User Reviews"]  </h4>
+
+
+        @foreach (var item in Model)
+        {
+    <section class="py-5">
+        <div class="container">
+
+
+
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+
+                    <!-- CUSTOM BLOCKQUOTE -->
+
+                    <blockquote class="blockquote blockquote-custom  p-5 shadow rounded" style="background-color:white">
+                        <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                        <h2>@Html.DisplayFor(modelItem => item.UserName)</h2>
+                        <h3><span>@Html.DisplayNameFor(model => model.ProductName) : </span><span>@Html.DisplayFor(modelItem => item.ProductName)</span></h3>
+                        <p class="mb-0 mt-2 font-italic"><span>@Html.DisplayNameFor(model => model.Comment) : </span><span>@Html.DisplayFor(modelItem => item.Comment)</span>  </p>
+                        <small>@Html.DisplayFor(modelItem => item.Date)</small>
+                        <footer class="blockquote-footer pt-4 mt-4 border-top">
+                            @{
+                                int? x = item.RatingValue;
+                                if (x != null)
+                                {
+                                    for (int i = 0; i < x; i++)
+                                    {
+                                        <i class=" text-warning fa-solid fa-star"></i>
+                                    }
+                                }
+                            }
+                        </footer>
+                    </blockquote><!-- END -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+           @* <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                </td>
+                <td>
+                    @{
+                        int? x = item.RatingValue;
+                        if (x != null)
+                        {
+                            for(int i = 0; i < x; i++)
+                            {
+                                <i class=" text-warning fa-solid fa-star"></i>
+                            }
+                        }
+                    }
+                    @Html.DisplayFor(modelItem => item.RatingValue)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Comment)
+                </td>
+              
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                <td>
+                  
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary">Details</a> |
+                    
+                </td>
+            </tr>*@
+        }
+   @* </tbody>
+</table>*@
+
+
+ <style>
+    .blockquote-custom {
+        position: relative;
+        font-size: 1.1rem;
+    }
+
+    .blockquote-custom-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: -25px;
+        left: 50px;
+    }
+ </style>

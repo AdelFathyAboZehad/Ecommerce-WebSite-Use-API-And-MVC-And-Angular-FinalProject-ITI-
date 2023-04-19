@@ -1,0 +1,17 @@
+G:\FinalProjectAPIAndMVC\FinalProject\Application\bin\Release\net7.0\Application.deps.json
+G:\FinalProjectAPIAndMVC\FinalProject\Application\bin\Release\net7.0\Application.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Application\bin\Release\net7.0\Application.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\Application\bin\Release\net7.0\Domian.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Application\bin\Release\net7.0\Dtos.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Application\bin\Release\net7.0\Domian.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\Application\bin\Release\net7.0\Dtos.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Release\net7.0\Application.csproj.AssemblyReference.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Release\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Release\net7.0\Application.AssemblyInfoInputs.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Release\net7.0\Application.AssemblyInfo.cs
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Release\net7.0\Application.csproj.CoreCompileInputs.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Release\net7.0\Application.csproj.CopyComplete
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Release\net7.0\Application.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Release\net7.0\refint\Application.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Release\net7.0\Application.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Release\net7.0\ref\Application.dll

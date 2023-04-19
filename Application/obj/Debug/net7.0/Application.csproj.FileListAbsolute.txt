@@ -1,0 +1,51 @@
+D:\ITI_FinalProject_V_2.5\Application\bin\Debug\net7.0\Application.deps.json
+D:\ITI_FinalProject_V_2.5\Application\bin\Debug\net7.0\Application.dll
+D:\ITI_FinalProject_V_2.5\Application\bin\Debug\net7.0\Application.pdb
+D:\ITI_FinalProject_V_2.5\Application\bin\Debug\net7.0\Domian.dll
+D:\ITI_FinalProject_V_2.5\Application\bin\Debug\net7.0\Dtos.dll
+D:\ITI_FinalProject_V_2.5\Application\bin\Debug\net7.0\Domian.pdb
+D:\ITI_FinalProject_V_2.5\Application\bin\Debug\net7.0\Dtos.pdb
+D:\ITI_FinalProject_V_2.5\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+D:\ITI_FinalProject_V_2.5\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI_FinalProject_V_2.5\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+D:\ITI_FinalProject_V_2.5\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+D:\ITI_FinalProject_V_2.5\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+D:\ITI_FinalProject_V_2.5\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+D:\ITI_FinalProject_V_2.5\Application\obj\Debug\net7.0\Application.dll
+D:\ITI_FinalProject_V_2.5\Application\obj\Debug\net7.0\refint\Application.dll
+D:\ITI_FinalProject_V_2.5\Application\obj\Debug\net7.0\Application.pdb
+D:\ITI_FinalProject_V_2.5\Application\obj\Debug\net7.0\ref\Application.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\bin\Debug\net7.0\Application.deps.json
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\bin\Debug\net7.0\Application.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\bin\Debug\net7.0\Application.pdb
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\bin\Debug\net7.0\Domian.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\bin\Debug\net7.0\Dtos.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\bin\Debug\net7.0\Domian.pdb
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\bin\Debug\net7.0\Dtos.pdb
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\obj\Debug\net7.0\Application.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\obj\Debug\net7.0\refint\Application.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\obj\Debug\net7.0\Application.pdb
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Application\obj\Debug\net7.0\ref\Application.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Application\bin\Debug\net7.0\Application.deps.json
+G:\FinalProjectAPIAndMVC\FinalProject\Application\bin\Debug\net7.0\Application.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Application\bin\Debug\net7.0\Application.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\Application\bin\Debug\net7.0\Domian.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Application\bin\Debug\net7.0\Dtos.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Application\bin\Debug\net7.0\Domian.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\Application\bin\Debug\net7.0\Dtos.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Debug\net7.0\Application.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Debug\net7.0\refint\Application.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Debug\net7.0\Application.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\Application\obj\Debug\net7.0\ref\Application.dll

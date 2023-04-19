@@ -1,0 +1,337 @@
+﻿@model AdminSiteUseMVC.ViewModel.Products.ProductViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    var isRTL = CultureInfo.CurrentCulture.Name.StartsWith("ar");
+}
+
+
+@inject IViewLocalizer localizer
+<div style="text-align:right" class="mb-2">
+    <a asp-action="Index" class="btn"><i class="fa-solid fa-angles-left"></i>@localizer["Back to List"]</a>
+</div>
+<div class="container">
+    
+        <div class="card px-2 ">
+            
+
+            <div class="my-2" style="text-align: center;">
+
+            <h4 style="color:#FAB005" class="my-4 ">@localizer["Create New Product"]</h4>
+
+            </div>
+        <form asp-action="Create" enctype="multipart/form-data" asp-controller="products">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @*nameEN*@
+            <div class="row mb-3" >
+                <div class="col-md-6" >
+            <div class="form-group">
+                        <div class="row">
+                            <div  class="text-lg-end col-lg-3">
+                <label  asp-for="NameEN" class="control-label"></label>
+                            </div>
+                            <div class="col-lg-9">
+                <input asp-for="NameEN" class="form-control" />
+                <span asp-validation-for="NameEN" class="text-danger"></span>
+            </div>
+                        </div>
+                    </div>
+                </div>
+            @*nameAR*@
+                <div class="col-md-6">
+            <div class="form-group">
+                        <div class="row">
+                            <div class="text-lg-end col-lg-3">
+                <label asp-for="NameAR" class="control-label"></label>
+                            </div>
+                            <div class="col-lg-9">
+                <input asp-for="NameAR" class="form-control" />
+                <span asp-validation-for="NameAR" class="text-danger"></span>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            @*DescriptionEN*@
+                <div class="row mb-3 ">
+                <div class="col-md-6">
+            <div class="form-group">
+                        <div class="row">
+                        <div class="text-lg-end col-lg-3">
+                <label asp-for="DescriptionEN" class="control-label"></label>
+                        </div>
+                        <div class="col-lg-9">
+                <textarea cols="2" asp-for="DescriptionEN" class="form-control" ></textarea>
+                <span asp-validation-for="DescriptionEN" class="text-danger"></span>
+                </div>
+                    </div>
+                </div>
+            </div>
+            @*DescriptionAR*@
+                <div class="col-md-6">
+            <div class="form-group">
+                  <div class="row">
+                        <div class="text-lg-end col-lg-3">
+                <label asp-for="DescriptionAR" class="control-label"></label>
+                 </div>
+                        <div class="col-lg-9">
+               <textarea cols="2" asp-for="DescriptionAR" class="form-control" ></textarea>
+                <span asp-validation-for="DescriptionAR" class="text-danger"></span>
+            </div>
+                </div>
+            </div>
+                </div>
+            </div>
+            @*DiscountPercentage*@
+            <div class="row" >
+                <div class="col-md-6">
+            <div class="form-group">
+                        <div class="row mb-3 ">
+                            <div class="text-lg-end col-lg-3">
+                <label asp-for="DiscountPercentage" class="control-label"></label>
+                 </div>
+                        <div class="col-lg-9">
+                <input asp-for="DiscountPercentage" class="form-control" />
+                <span asp-validation-for="DiscountPercentage" class="text-danger"></span>
+            </div>
+            </div>
+                    </div>
+            @*Price*@
+            <div class="form-group">
+                        <div class="row mb-3">
+                            <div class="text-lg-end col-lg-3">
+                <label asp-for="Price" class="control-label"></label>
+                            </div>
+                            <div class="col-lg-9">
+                <input asp-for="Price" class="form-control" type="number"/>
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+             </div>
+                    </div>
+            @*Quantity*@
+            <div class="form-group">
+                        <div class="row mb-3">
+                        <div class="text-lg-end col-lg-3">
+                <label asp-for="Quantity" class="control-label"></label>
+                            </div>
+                            <div class="col-lg-9">
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+             </div>
+                    </div>
+            @*ImagesURL*@
+            <div class="form-group">
+                        <div class="row mb-3">
+                        <div class="text-lg-end col-lg-3">
+                <label asp-for="ImagesFile" class="control-label"></label>
+                            </div>
+                            <div class="col-lg-9">
+                <input asp-for="ImagesFile" class="form-control" multiple accept="image/*" />
+                <span asp-validation-for="ImagesFile" class="text-danger"></span>
+            </div>
+            </div>
+            </div>
+            </div>
+                <div class="col-md-6">
+           @if(isRTL)
+            {
+                @*CategoriesAR*@
+                <div class="form-group">
+                            <div class="row mb-3">
+                                <div class="text-lg-end col-lg-3">
+                    <label style="text-align:center" asp-for="CategoriesId" class="control-label"></label>
+                                </div>
+                                <div class="col-lg-9">
+                    <select asp-for="CategoriesId" class="form-select" asp-items=" ViewBag.CategoriesAR" multiple>
+                                        <option value="0" selected disabled>@localizer["Select Multi Categories"]</option>
+                    </select>
+                    <span asp-validation-for="CategoriesId" class="text-danger"></span>
+                </div>
+                            </div>
+                            </div>
+                        @*Brand*@
+                        
+                        <div class="form-group">
+                            <div class="row mb-3">
+                                <div class="text-lg-end col-lg-3">
+                            <label style="text-align:center" style="text-align:center" asp-for="BrandId" class="control-label"></label>
+                                </div>
+                                <div class="col-lg-9">
+                            <select asp-for="BrandId" class="form-select" asp-items="ViewBag.BrandsAR">
+                                        <option value="0" selected disabled>@localizer["Select Barnd"]</option>
+                            </select>
+                            <span asp-validation-for="BrandId" class="text-danger"></span>
+                        </div>
+                        </div>
+                        </div>
+                        @*stock*@
+                        <div class="form-group">
+                            <div class="row mb-3">
+                                <div class="text-lg-end col-lg-3">
+                            <label  asp-for="StockId" class="control-label"></label>
+                                </div>
+                                <div class="col-lg-9">
+                            <select asp-for="StockId" class="form-select" asp-items="ViewBag.Stocks">
+                                        <option value="0" selected disabled>@localizer["Select Stock"]</option>
+                            </select>
+                            <span asp-validation-for="StockId" class="text-danger"></span>
+                        </div>
+                        </div>
+                        </div>
+            }else
+            {
+                        @*CategoriesAR*@
+                        <div class="form-group">
+                            <div class="row mb-3">
+                                <div class="text-lg-end col-lg-3">
+                                    <label asp-for="CategoriesId" class="control-label"></label>
+                                </div>
+                                <div class="col-lg-9">
+                                    <select asp-for="CategoriesId" class="form-select" asp-items=" ViewBag.Categories" multiple>
+                                        <option value="0" selected disabled>@localizer["Select Multi Categories"]</option>
+                                    </select>
+                                    <span asp-validation-for="CategoriesId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        @*Brand*@
+                        
+                                <div class="form-group">
+                                    <div class="row mb-3">
+                            <div class="text-lg-end col-lg-3">
+                                    <label asp-for="BrandId" class="control-label"></label>
+                                </div>
+                                <div class="col-lg-9">
+                                    <select asp-for="BrandId" class="form-select" asp-items="ViewBag.Brands">
+                                        <option value="0" selected disabled>@localizer["Select Barnd"]</option>
+                                    </select>
+                                    <span asp-validation-for="BrandId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        @*stock*@
+                        <div class="form-group">
+                            <div class="row mb-3">
+                                <div class="text-lg-end col-lg-3">
+                                    <label asp-for="StockId" class="control-label"></label>
+                                </div>
+                                <div class="col-lg-9">
+                                    <select asp-for="StockId" class="form-select" asp-items="ViewBag.Stocks">
+                                        <option value="0" selected disabled>@localizer["Select Stock"]</option>
+                                    </select>
+                                    <span asp-validation-for="StockId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                
+            }
+            
+           
+           
+
+            
+            </div>
+            </div>
+            <div style="text-align:center" >
+               
+                <button class="mb-2" style="width:200px;"  type="submit">@localizer["Create"]</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<style>
+    body {
+        background-color: #F0F1F3;
+    }
+
+    .card {
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+    }
+
+    h6,
+    h1 {
+        color: #FAB005;
+        font-family: cursive;
+    }
+
+    label,
+    h4,
+    
+    p {
+        font-family: cursive;
+        color: #183153;
+    }
+
+    input {
+        border: 10px #183153;
+    }
+
+    .icon {
+        position: absolute;
+        top: calc(43%);
+        left: 1.8rem;
+    }
+
+    .iconn {
+        position: absolute;
+        top: calc(58%);
+        left: 1.8rem;
+    }
+
+     .btn{
+        border-radius: 10px;
+        background-color: #63E6BE;
+        color: #183153;
+        height: 50px;
+        border-top: 2px solid #183153;
+        border-left: 2px solid #183153;
+        border-right: 2px solid #183153;
+        border-bottom: 8px solid #183153;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 18px;
+
+     }
+
+    .btn:hover{
+         border-radius: 10px;
+            background-color: #0CA678;
+        color: #183153;
+        height: 50px;
+        border-top: 2px solid #183153;
+        border-left: 2px solid #183153;
+        border-right: 2px solid #183153;
+        border-bottom: 8px solid #183153;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 18px;
+    }
+     
+
+    button  {
+        border-radius: 10px;
+        background-color: #FFD43B;
+        color: #183153;
+        height: 50px;
+        border-top: 2px solid #183153;
+        border-left: 2px solid #183153;
+        border-right: 2px solid #183153;
+        border-bottom: 8px solid #183153;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+        button:hover {
+            background-color: #FAB005;
+        }
+</style>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+

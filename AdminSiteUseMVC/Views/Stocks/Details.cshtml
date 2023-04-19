@@ -1,0 +1,91 @@
+﻿@model AdminSiteUseMVC.ViewModel.Stocks.StockViewModel
+@inject IViewLocalizer localizer
+@{
+    ViewData["Title"] = "Details";
+
+    var isRTL = CultureInfo.CurrentCulture.Name.StartsWith("ar");
+
+}
+ <div class="container">
+        <div class=" row justify-content-center my-4 ">
+        <div class="card col-lg-4 col-md-6 col-sm-9 " style="background-color:#ffff;border-radius:25px">
+                <div class="row card  " style="background-color:#FFD43B ;height:100px;text-align:center">
+                <h3 class="mt-4" style="color:#232F3E;font-style:italic;font-weight:bold;"><i class="fa-solid fa-magnifying-glass mx-2 " style=" font-size:smaller"></i>@localizer["Details Of"] @Model.Name </h3>
+
+                </div>
+                <div class="row " style="background-color:#ffff ;height:200px ;border: none;">
+                   
+                    <p>
+                    <h4><span>@Html.DisplayNameFor(model => model.Name) :</span><span> @Html.DisplayFor(model => model.Name)</span></h4>
+                    <h4><span>@Html.DisplayNameFor(model => model.Address) :</span><span> @Html.DisplayFor(model => model.Address)</span></h4>
+
+
+                </p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+<style>
+        
+
+        .card {
+            background-color: white;
+            border-radius: 25px;
+        }
+
+        h6,
+        h1 {
+            color: #FAB005;
+            font-family: cursive;
+        }
+
+        label,
+        h4,
+     
+        p {
+            font-family: cursive;
+            color: #183153;
+        }
+
+        input {
+            border: 10px #183153;
+        }
+
+        .icon {
+            position: absolute;
+            top: calc(43%);
+            left: 1.8rem;
+        }
+
+        .iconn {
+            position: absolute;
+            top: calc(58%);
+            left: 1.8rem;
+        }
+
+      
+
+            a:hover {
+                color: #183153;
+            }
+
+        button {
+            border-radius: 10px;
+            background-color: #FFD43B;
+            height: 50px;
+            border-top: 2px solid #183153;
+            border-left: 2px solid #183153;
+            border-right: 2px solid #183153;
+            border-bottom: 8px solid #183153;
+            font-family: cursive;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+            button:hover {
+                background-color: #FAB005;
+            }
+    </style>

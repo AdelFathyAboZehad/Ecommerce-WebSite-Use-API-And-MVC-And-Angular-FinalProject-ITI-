@@ -1,0 +1,45 @@
+D:\ITI_FinalProject_V_2.5\DBContext\bin\Debug\net7.0\DBContext.deps.json
+D:\ITI_FinalProject_V_2.5\DBContext\bin\Debug\net7.0\DBContext.dll
+D:\ITI_FinalProject_V_2.5\DBContext\bin\Debug\net7.0\DBContext.pdb
+D:\ITI_FinalProject_V_2.5\DBContext\bin\Debug\net7.0\Domian.dll
+D:\ITI_FinalProject_V_2.5\DBContext\bin\Debug\net7.0\Domian.pdb
+D:\ITI_FinalProject_V_2.5\DBContext\obj\Debug\net7.0\DBContext.csproj.AssemblyReference.cache
+D:\ITI_FinalProject_V_2.5\DBContext\obj\Debug\net7.0\DBContext.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI_FinalProject_V_2.5\DBContext\obj\Debug\net7.0\DBContext.AssemblyInfoInputs.cache
+D:\ITI_FinalProject_V_2.5\DBContext\obj\Debug\net7.0\DBContext.AssemblyInfo.cs
+D:\ITI_FinalProject_V_2.5\DBContext\obj\Debug\net7.0\DBContext.csproj.CoreCompileInputs.cache
+D:\ITI_FinalProject_V_2.5\DBContext\obj\Debug\net7.0\DBContext.csproj.CopyComplete
+D:\ITI_FinalProject_V_2.5\DBContext\obj\Debug\net7.0\DBContext.dll
+D:\ITI_FinalProject_V_2.5\DBContext\obj\Debug\net7.0\refint\DBContext.dll
+D:\ITI_FinalProject_V_2.5\DBContext\obj\Debug\net7.0\DBContext.pdb
+D:\ITI_FinalProject_V_2.5\DBContext\obj\Debug\net7.0\ref\DBContext.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\DBContext\bin\Debug\net7.0\DBContext.deps.json
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\DBContext\bin\Debug\net7.0\DBContext.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\DBContext\bin\Debug\net7.0\DBContext.pdb
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\DBContext\bin\Debug\net7.0\Domian.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\DBContext\bin\Debug\net7.0\Domian.pdb
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\DBContext\obj\Debug\net7.0\DBContext.csproj.AssemblyReference.cache
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\DBContext\obj\Debug\net7.0\DBContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\DBContext\obj\Debug\net7.0\DBContext.AssemblyInfoInputs.cache
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\DBContext\obj\Debug\net7.0\DBContext.AssemblyInfo.cs
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\DBContext\obj\Debug\net7.0\DBContext.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\DBContext\obj\Debug\net7.0\DBContext.csproj.CopyComplete
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\DBContext\obj\Debug\net7.0\DBContext.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\DBContext\obj\Debug\net7.0\refint\DBContext.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\DBContext\obj\Debug\net7.0\DBContext.pdb
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\DBContext\obj\Debug\net7.0\ref\DBContext.dll
+G:\FinalProjectAPIAndMVC\FinalProject\DBContext\bin\Debug\net7.0\DBContext.deps.json
+G:\FinalProjectAPIAndMVC\FinalProject\DBContext\bin\Debug\net7.0\DBContext.dll
+G:\FinalProjectAPIAndMVC\FinalProject\DBContext\bin\Debug\net7.0\DBContext.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\DBContext\bin\Debug\net7.0\Domian.dll
+G:\FinalProjectAPIAndMVC\FinalProject\DBContext\bin\Debug\net7.0\Domian.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\DBContext\obj\Debug\net7.0\DBContext.csproj.AssemblyReference.cache
+G:\FinalProjectAPIAndMVC\FinalProject\DBContext\obj\Debug\net7.0\DBContext.GeneratedMSBuildEditorConfig.editorconfig
+G:\FinalProjectAPIAndMVC\FinalProject\DBContext\obj\Debug\net7.0\DBContext.AssemblyInfoInputs.cache
+G:\FinalProjectAPIAndMVC\FinalProject\DBContext\obj\Debug\net7.0\DBContext.AssemblyInfo.cs
+G:\FinalProjectAPIAndMVC\FinalProject\DBContext\obj\Debug\net7.0\DBContext.csproj.CoreCompileInputs.cache
+G:\FinalProjectAPIAndMVC\FinalProject\DBContext\obj\Debug\net7.0\DBContext.csproj.CopyComplete
+G:\FinalProjectAPIAndMVC\FinalProject\DBContext\obj\Debug\net7.0\DBContext.dll
+G:\FinalProjectAPIAndMVC\FinalProject\DBContext\obj\Debug\net7.0\refint\DBContext.dll
+G:\FinalProjectAPIAndMVC\FinalProject\DBContext\obj\Debug\net7.0\DBContext.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\DBContext\obj\Debug\net7.0\ref\DBContext.dll

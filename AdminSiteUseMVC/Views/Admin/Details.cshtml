@@ -1,0 +1,101 @@
+﻿@model AdminSiteUseMVC.ViewModel.Admin.UserDetailsViewModel
+@inject IViewLocalizer localizer
+
+@{
+    ViewData["Title"] = "Details";
+
+}
+
+
+
+<div class="container">
+    <div class=" row justify-content-center my-2 ">
+        <div class="card col-lg-6 col-md-8 col-sm-10 py-3 mt-5 ">
+            <div style="text-align: center;">
+               
+                <h2> @Html.DisplayFor(model => model.UserName)</h2>
+            </div>
+            <h4> @Html.DisplayNameFor(model => model.FirstName) : @Html.DisplayFor(model => model.FirstName)</h4>
+            <h4>@Html.DisplayNameFor(model => model.LastName) :  @Html.DisplayFor(model => model.LastName)</h4>
+            <h4>  @Html.DisplayNameFor(model => model.Email): @Html.DisplayFor(model => model.Email)</h4>
+            @*Address*@
+            <div class="form-group">
+                <label asp-for="AddressId" class="control-label"></label>
+                <select asp-for="AddressId" class="form-control" asp-items="ViewBag.AddressesEN">
+                </select>
+                <span asp-validation-for="AddressId" class="text-danger"></span>
+            </div>
+            @*Role*@
+            <div class="form-group">
+                <label asp-for="RoleId" class="control-label"></label>
+                <select asp-for="RoleId" class="form-control" >
+                    @foreach (var x in ViewBag.roles)
+                    {
+                        <option>@x</option>
+                    }
+                </select>
+                <span asp-validation-for="RoleId" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    body {
+        background-color: #F0F1F3;
+    }
+
+    .card {
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+    }
+
+    h6,
+    h1 {
+        color: #FAB005;
+        font-family: cursive;
+    }
+
+    label,
+    h4,
+    h2,
+    p {
+        font-family: cursive;
+        color: #183153;
+    }
+
+    input {
+        border: 10px #183153;
+    }
+
+    .icon {
+        position: absolute;
+        top: calc(43%);
+        left: 1.8rem;
+    }
+
+    .iconn {
+        position: absolute;
+        top: calc(58%);
+        left: 1.8rem;
+    }
+
+
+
+    button {
+        border-radius: 10px;
+        background-color: #FFD43B;
+        height: 50px;
+        border-top: 2px solid #183153;
+        border-left: 2px solid #183153;
+        border-right: 2px solid #183153;
+        border-bottom: 8px solid #183153;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+        button:hover {
+            background-color: #FAB005;
+        }
+</style>

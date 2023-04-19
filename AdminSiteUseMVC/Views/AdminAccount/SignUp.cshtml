@@ -1,0 +1,239 @@
+﻿@model AdminSiteUseMVC.ViewModel.Admin.RegistrationModel
+
+@{
+    ViewData["Title"] = "SignUp";
+    Layout = null;
+
+}
+
+@*<h1>SignUp</h1>
+
+<h4>RegistrationModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="SignUp">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConfirmPassword" class="control-label"></label>
+                <input asp-for="ConfirmPassword" class="form-control" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <p><a asp-action="ForgotPassword" asp-controller="AdminAccount">Login</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>*@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/adc5c6a0d2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #F0F1F3;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 25px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+        }
+
+        h6,
+        h1 {
+            color: #FAB005;
+            font-family: cursive;
+        }
+
+        label,
+        h4,
+        a,
+        p {
+            font-family: cursive;
+            color: #183153;
+        }
+
+        input {
+            border: 10px #183153;
+        }
+
+        .icon {
+            position: absolute;
+            top: calc(43%);
+            left: 1.8rem;
+        }
+
+        .iconn {
+            position: absolute;
+            top: calc(58%);
+            left: 1.8rem;
+        }
+
+        a {
+            text-decoration: underline dotted;
+            color: #4993DB;
+        }
+
+            a:hover {
+                color: #183153;
+            }
+
+        button {
+            border-radius: 10px;
+            background-color: #FFD43B;
+            height: 50px;
+            border-top: 2px solid #183153;
+            border-left: 2px solid #183153;
+            border-right: 2px solid #183153;
+            border-bottom: 8px solid #183153;
+            font-family: cursive;
+            font-weight: bold;
+            font-size: 16px;
+            color: #183153;
+        }
+
+            button:hover {
+                background-color: #FAB005;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class=" row justify-content-center my-2 ">
+            <div class="card col-lg-4 col-md-6 col-sm-9 py-3 ">
+                <div style="text-align: center;">
+
+                    <h6 class="mt-2 ">WELCOME TO AMAZON </h6>
+
+
+                </div>
+                <div style="text-align: center;">
+                    <h1 class="mt-2"><i class="fa-solid fa-face-smile-beam " style="font-size: larger;"></i></h1>
+                </div>
+
+                <div style="text-align: center;">
+
+                    <h4 class="mt-2 text-dark">Sign UP   </h4>
+
+                </div>
+                <form class="mx-2 px-2" asp-action="SignUp">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-2 ">
+
+                                <label asp-for="FirstName" class="form-label">First Name</label>
+                                <!-- <i class="icon fa-solid fa-user mx-2"></i> -->
+
+                                <input asp-for="FirstName" class="form-control ">
+                                <span asp-validation-for="FirstName" class="text-danger"></span>
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="mb-2 ">
+
+                                <label asp-for="LastName" class="form-label">Last Name</label>
+                                <!-- <i class="icon fa-solid fa-user mx-2"></i> -->
+
+                                <input asp-for="LastName" class="form-control ">
+                                <span asp-validation-for="LastName" class="text-danger"></span>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="mb-2 ">
+
+                        <label asp-for="UserName" class="form-label">UserName</label>
+                        <!-- <i class="icon fa-solid fa-user mx-2"></i> -->
+
+                        <input asp-for="UserName" class="form-control px-5">
+                         <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+                    <div class="mb-2 ">
+
+                        <label asp-for="Email" class="form-label">Email</label>
+                        <!-- <i class="icon fa-solid fa-user mx-2"></i> -->
+
+                        <input asp-for="Email" class="form-control px-5">
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-2">
+
+                        <label asp-for="Password" class="form-label">Password</label>
+                        <!-- <i class="iconn fa-solid fa-lock fa-lg mx-2"></i> -->
+                        <input asp-for="Password"  class="form-control px-5" >
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="mb-2">
+
+                        <label asp-for="ConfirmPassword" class="form-label">Confirm Password</label>
+                        <!-- <i class="iconn fa-solid fa-lock fa-lg mx-2"></i> -->
+                        <input asp-for="ConfirmPassword"  class="form-control px-5" >
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    </div>
+                    
+
+                    <div class="row">
+                        <button type="submit" class="mx-2">Sign UP <i class="fa-solid fa-right-to-bracket"></i></button>
+                    </div>
+                </form>
+                <div class="mt-3" style="text-align: center;">
+                    <p>Already have an Account?<a asp-action="LogIN"> Sign in !</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+</body>
+
+</html>
+

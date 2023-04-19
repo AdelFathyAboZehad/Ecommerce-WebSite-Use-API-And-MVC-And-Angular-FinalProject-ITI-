@@ -1,0 +1,147 @@
+﻿@model AdminSiteUseMVC.ViewModel.ShoppingMethods.ShoppingMethodViewModel
+@inject IViewLocalizer localizer
+@{
+    ViewData["Title"] = "Edite";
+
+}
+
+
+<div style="text-align:right" class="mb-2">
+    <a asp-action="Index" class="btn"><i class="fa-solid fa-angles-left"></i>@localizer["Back to List"]</a>
+</div>
+<div class="row justify-content-center">
+
+    <div class="card col-lg-6  col-md-9 col-sm-12 px-2">
+
+        <h4 style="color:#FAB005" class="my-4 "><i class="fa-solid fa-pen-to-square mx-2 " style=" font-size:smaller"></i>@localizer["Edit"] @Model.Name </h4>
+
+    <form asp-action="Edit" >
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+        <div class="form-group">
+            <div class="row my-3">
+                <div class="text-md-center col-md-4">
+                <label asp-for="Name" class="control-label"></label>
+                </div>
+                <div class="col-md-8">
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+           <div class="form-group">
+            <div class="row my-3">
+                    <div class="text-md-center col-md-4">
+                <label asp-for="Price" class="control-label"></label>
+                </div>
+                <div class="col-md-8">
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            @*<div class="form-group mt-2">
+            <button type="submit" class="btn btn-outline-success">@localizer["Save"]</button>
+            </div>*@
+           <div style="text-align:center" >
+
+             @*   <button type="submit" class="btn btn-outline-success">@localizer["Save"]</button>
+         *@
+                <button type="submit" class="mb-2" style="width:150px;" >@localizer["Save"]</button>
+     </div>
+        </form>
+    </div>
+</div>
+<style>
+    body {
+        background-color: #F0F1F3;
+    }
+
+    .card {
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+    }
+
+    h6,
+    h1 {
+        color: #FAB005;
+        font-family: cursive;
+    }
+
+    label,
+    h4,
+    p {
+        font-family: cursive;
+        color: #183153;
+    }
+
+    input {
+        border: 10px #183153;
+    }
+
+    .icon {
+        position: absolute;
+        top: calc(43%);
+        left: 1.8rem;
+    }
+
+    .iconn {
+        position: absolute;
+        top: calc(58%);
+        left: 1.8rem;
+    }
+
+    .btn {
+        border-radius: 10px;
+        background-color: #63E6BE;
+        color: #183153;
+        height: 50px;
+        border-top: 2px solid #183153;
+        border-left: 2px solid #183153;
+        border-right: 2px solid #183153;
+        border-bottom: 8px solid #183153;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+        .btn:hover {
+            border-radius: 10px;
+            background-color: #0CA678;
+            color: #183153;
+            height: 50px;
+            border-top: 2px solid #183153;
+            border-left: 2px solid #183153;
+            border-right: 2px solid #183153;
+            border-bottom: 8px solid #183153;
+            font-family: cursive;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+
+    button {
+        border-radius: 10px;
+        background-color: #FFD43B;
+        color: #183153;
+        height: 50px;
+        border-top: 2px solid #183153;
+        border-left: 2px solid #183153;
+        border-right: 2px solid #183153;
+        border-bottom: 8px solid #183153;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+        button:hover {
+            background-color: #FAB005;
+        }
+</style>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

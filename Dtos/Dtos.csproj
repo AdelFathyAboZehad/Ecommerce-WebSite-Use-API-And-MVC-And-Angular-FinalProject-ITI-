@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Address\**" />
+    <Compile Remove="Cart\**" />
+    <Compile Remove="Image\**" />
+    <Compile Remove="UserAddress\**" />
+    <Compile Remove="UserPaymentMethod\**" />
+    <Compile Remove="VariationOption\**" />
+    <Compile Remove="WishList\**" />
+    <EmbeddedResource Remove="Address\**" />
+    <EmbeddedResource Remove="Cart\**" />
+    <EmbeddedResource Remove="Image\**" />
+    <EmbeddedResource Remove="UserAddress\**" />
+    <EmbeddedResource Remove="UserPaymentMethod\**" />
+    <EmbeddedResource Remove="VariationOption\**" />
+    <EmbeddedResource Remove="WishList\**" />
+    <None Remove="Address\**" />
+    <None Remove="Cart\**" />
+    <None Remove="Image\**" />
+    <None Remove="UserAddress\**" />
+    <None Remove="UserPaymentMethod\**" />
+    <None Remove="VariationOption\**" />
+    <None Remove="WishList\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Category\Commands\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domian\Domian.csproj" />
+  </ItemGroup>
+
+</Project>

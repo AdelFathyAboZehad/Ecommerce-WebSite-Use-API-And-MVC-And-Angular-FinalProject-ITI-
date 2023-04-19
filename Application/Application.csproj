@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Features\Image\**" />
+    <Compile Remove="Features\Order\**" />
+    <Compile Remove="Features\UserPaymetMethods\**" />
+    <Compile Remove="Features\UserReviews\Commands\**" />
+    <Compile Remove="Features\UserReviews\Queries\GetAllUserReviews\**" />
+    <EmbeddedResource Remove="Features\Image\**" />
+    <EmbeddedResource Remove="Features\Order\**" />
+    <EmbeddedResource Remove="Features\UserPaymetMethods\**" />
+    <EmbeddedResource Remove="Features\UserReviews\Commands\**" />
+    <EmbeddedResource Remove="Features\UserReviews\Queries\GetAllUserReviews\**" />
+    <None Remove="Features\Image\**" />
+    <None Remove="Features\Order\**" />
+    <None Remove="Features\UserPaymetMethods\**" />
+    <None Remove="Features\UserReviews\Commands\**" />
+    <None Remove="Features\UserReviews\Queries\GetAllUserReviews\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Cart\Commands\DeleteCart\" />
+    <Folder Include="Features\Cart\Commands\UpdateCart\" />
+    <Folder Include="Features\Cart\Queries\GetAllCarts\" />
+    <Folder Include="Features\Cart\Queries\GetCartDetails\" />
+    <Folder Include="Features\OrderDetailss\Commands\DeleteOrderDetails\" />
+    <Folder Include="Features\OrderDetailss\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.5.1" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domian\Domian.csproj" />
+    <ProjectReference Include="..\Dtos\Dtos.csproj" />
+  </ItemGroup>
+
+</Project>

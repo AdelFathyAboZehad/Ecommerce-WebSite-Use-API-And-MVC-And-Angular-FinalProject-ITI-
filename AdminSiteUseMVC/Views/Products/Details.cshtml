@@ -1,0 +1,175 @@
+﻿@model AdminSiteUseMVC.ViewModel.Products.DetailsProductViewModel
+@inject IViewLocalizer localizer
+@{
+    ViewData["Title"] = "Details";
+    var isRTL = CultureInfo.CurrentCulture.Name.StartsWith("ar");
+
+}
+
+@if (!isRTL)
+{
+    <h4 style="color:#232F3E;font-style:italic;font-weight:bold;"><i class="fa-solid fa-magnifying-glass mx-2 " style=" font-size:smaller"></i>@localizer["Details Of"] @Model.NameEN </h4>
+}else{
+    <h4 style="color:#232F3E;font-weight:bold;"><i class="fa-solid fa-magnifying-glass mx-2 " style=" font-size:smaller"></i>@localizer["Details Of"] @Model.NameAR </h4>
+
+}
+<div class="container">
+
+    <div class="row  m-2 p-2 " style="border-radius:25px;background-color:#131921">
+        <div class="col-lg-6 col-sm-12">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"   >
+                <div class="carousel-inner">
+
+
+                    @{
+
+                        if (Model.Images != null)
+
+                        {
+                            bool x = false;
+                            foreach (var item in Model.Images)
+                            {
+                                if (!x)
+                                {
+                                    x = true;
+                                    <div class="carousel-item active ">
+                                        <div class="animate__animated animate__slideInLeft">
+                                            <img style="width:100%;height:400px" src="@item.ImageURL" class="d-block " alt="...">
+                                        </div>
+                                    </div>
+
+                                }
+                                else
+                                {
+                                    <div class="carousel-item ">
+                                        <div class="animate__animated animate__slideInLeft">
+                                            <img style="width:100%;height:400px" src="@item.ImageURL" class="d-block  " alt="...">
+                                        </div>
+                                    </div>
+                                }
+                            }
+
+
+
+                        }
+
+                    }
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+        <div class="col-lg-6 col-sm-12 ">
+            <div class="card  text-white" style="border:none;font-style:italic;background-color:#131921">
+
+                <div class="card-body">
+                    @if(!isRTL){
+                    <h3 style="color:#DFB162"> @Html.DisplayFor(model => model.NameEN)</h3>
+                    <h5 style="color:#DFB162" class="card-text">@Html.DisplayFor(model => model.DescriptionEN)</h5>
+                    }else{
+                        <h3 style="color:#DFB162"> @Html.DisplayFor(model => model.NameAR)</h3>
+                        <h5 style="color:#DFB162" class="card-text">@Html.DisplayFor(model => model.DescriptionAR)</h5>
+
+
+                    }
+                    <dl class="row">
+
+
+                        <dt class="col-md-4 col-sm-6">
+                            @localizer["Discount"]:
+                        </dt>
+                        <dd class="col-md-8  col-sm-6">
+                            @Html.DisplayFor(model => model.DiscountPercentage)
+                        </dd>
+
+                        <dt class="col-md-4 col-sm-6">
+                            @localizer["Price"]:
+                        </dt>
+                        <dd class="col-md-8  col-sm-6">
+                            @Html.DisplayFor(model => model.Price)$
+                        </dd>
+                        <dt class="col-md-4 col-sm-6">
+                            @localizer["Quantity"]:
+                        </dt>
+                        <dd class="col-md-8  col-sm-6">
+                            @Html.DisplayFor(model => model.Quantity)
+                        </dd>
+
+                        <dt class="col-md-4 col-sm-6">
+                            @localizer["Brand"]:
+                        </dt>
+                        <dd class="col-md-8  col-sm-6">
+                            @if (!isRTL)
+                            {
+                                @Html.DisplayFor(model => model.Brand.NameEN)
+                            }
+                            else
+                            {
+                                @Html.DisplayFor(model => model.Brand.NameAR)
+                            }
+                        </dd>
+
+                        <dt class="col-md-4 col-sm-6">
+                            @localizer["Stock"]:
+                        </dt>
+                        <dd class="col-md-8  col-sm-6">
+                            @Html.DisplayFor(model => model.Stock.Name)
+                        </dd>
+
+                        <dt class="col-md-4 col-sm-6">
+                            @localizer["Category"]:
+                        </dt>
+                        <dd class="col-md-8  col-sm-6">
+                            @if (isRTL)
+                            {
+                                <select class="form-select">
+                                    @{
+                                        if (Model.Categories != null)
+                                        {
+                                            foreach (var item in Model.Categories)
+                                            {
+                                                <option>@item.NameAR</option>
+                                            }
+
+                                        }
+
+                                    }
+                                </select>}else{
+
+                            <select class="form-control">
+                                @{
+                                    if (Model.Categories != null)
+                                    {
+                                        foreach (var item in Model.Categories)
+                                        {
+                                            <option>@item.NameEN</option>
+                                        }
+
+                                    }
+
+                                }
+                            </select>}
+                        </dd>
+                    </dl>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<style>
+    .btn {
+        color: white;
+    }
+</style>

@@ -1,0 +1,56 @@
+D:\ITI_FinalProject_V_2.5\Domian\bin\Debug\net7.0\Domian.deps.json
+D:\ITI_FinalProject_V_2.5\Domian\bin\Debug\net7.0\Domian.runtimeconfig.json
+D:\ITI_FinalProject_V_2.5\Domian\bin\Debug\net7.0\Domian.dll
+D:\ITI_FinalProject_V_2.5\Domian\bin\Debug\net7.0\Domian.pdb
+D:\ITI_FinalProject_V_2.5\Domian\obj\Debug\net7.0\Domian.csproj.AssemblyReference.cache
+D:\ITI_FinalProject_V_2.5\Domian\obj\Debug\net7.0\Domian.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI_FinalProject_V_2.5\Domian\obj\Debug\net7.0\Domian.AssemblyInfoInputs.cache
+D:\ITI_FinalProject_V_2.5\Domian\obj\Debug\net7.0\Domian.AssemblyInfo.cs
+D:\ITI_FinalProject_V_2.5\Domian\obj\Debug\net7.0\Domian.csproj.CoreCompileInputs.cache
+D:\ITI_FinalProject_V_2.5\Domian\obj\Debug\net7.0\Domian.dll
+D:\ITI_FinalProject_V_2.5\Domian\obj\Debug\net7.0\refint\Domian.dll
+D:\ITI_FinalProject_V_2.5\Domian\obj\Debug\net7.0\Domian.pdb
+D:\ITI_FinalProject_V_2.5\Domian\obj\Debug\net7.0\Domian.genruntimeconfig.cache
+D:\ITI_FinalProject_V_2.5\Domian\obj\Debug\net7.0\ref\Domian.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Domian\bin\Debug\net7.0\Domian.deps.json
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Domian\bin\Debug\net7.0\Domian.runtimeconfig.json
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Domian\bin\Debug\net7.0\Domian.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Domian\bin\Debug\net7.0\Domian.pdb
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Domian\obj\Debug\net7.0\Domian.csproj.AssemblyReference.cache
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Domian\obj\Debug\net7.0\Domian.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Domian\obj\Debug\net7.0\Domian.AssemblyInfoInputs.cache
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Domian\obj\Debug\net7.0\Domian.AssemblyInfo.cs
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Domian\obj\Debug\net7.0\Domian.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Domian\obj\Debug\net7.0\Domian.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Domian\obj\Debug\net7.0\refint\Domian.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Domian\obj\Debug\net7.0\Domian.pdb
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Domian\obj\Debug\net7.0\Domian.genruntimeconfig.cache
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\Domian\obj\Debug\net7.0\ref\Domian.dll
+C:\Users\Office\Desktop\lalalalalla\FinalProject\Domian\bin\Debug\net7.0\Domian.deps.json
+C:\Users\Office\Desktop\lalalalalla\FinalProject\Domian\bin\Debug\net7.0\Domian.runtimeconfig.json
+C:\Users\Office\Desktop\lalalalalla\FinalProject\Domian\bin\Debug\net7.0\Domian.dll
+C:\Users\Office\Desktop\lalalalalla\FinalProject\Domian\bin\Debug\net7.0\Domian.pdb
+C:\Users\Office\Desktop\lalalalalla\FinalProject\Domian\obj\Debug\net7.0\Domian.csproj.AssemblyReference.cache
+C:\Users\Office\Desktop\lalalalalla\FinalProject\Domian\obj\Debug\net7.0\Domian.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Office\Desktop\lalalalalla\FinalProject\Domian\obj\Debug\net7.0\Domian.AssemblyInfoInputs.cache
+C:\Users\Office\Desktop\lalalalalla\FinalProject\Domian\obj\Debug\net7.0\Domian.AssemblyInfo.cs
+C:\Users\Office\Desktop\lalalalalla\FinalProject\Domian\obj\Debug\net7.0\Domian.csproj.CoreCompileInputs.cache
+C:\Users\Office\Desktop\lalalalalla\FinalProject\Domian\obj\Debug\net7.0\Domian.dll
+C:\Users\Office\Desktop\lalalalalla\FinalProject\Domian\obj\Debug\net7.0\refint\Domian.dll
+C:\Users\Office\Desktop\lalalalalla\FinalProject\Domian\obj\Debug\net7.0\Domian.pdb
+C:\Users\Office\Desktop\lalalalalla\FinalProject\Domian\obj\Debug\net7.0\Domian.genruntimeconfig.cache
+C:\Users\Office\Desktop\lalalalalla\FinalProject\Domian\obj\Debug\net7.0\ref\Domian.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\bin\Debug\net7.0\Domian.deps.json
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\bin\Debug\net7.0\Domian.runtimeconfig.json
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\bin\Debug\net7.0\Domian.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\bin\Debug\net7.0\Domian.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Debug\net7.0\Domian.csproj.AssemblyReference.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Debug\net7.0\Domian.GeneratedMSBuildEditorConfig.editorconfig
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Debug\net7.0\Domian.AssemblyInfoInputs.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Debug\net7.0\Domian.AssemblyInfo.cs
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Debug\net7.0\Domian.csproj.CoreCompileInputs.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Debug\net7.0\Domian.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Debug\net7.0\refint\Domian.dll
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Debug\net7.0\Domian.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Debug\net7.0\Domian.genruntimeconfig.cache
+G:\FinalProjectAPIAndMVC\FinalProject\Domian\obj\Debug\net7.0\ref\Domian.dll

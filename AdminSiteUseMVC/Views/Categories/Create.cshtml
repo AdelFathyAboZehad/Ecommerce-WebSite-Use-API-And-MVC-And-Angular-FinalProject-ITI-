@@ -1,0 +1,184 @@
+﻿@model AdminSiteUseMVC.ViewModel.Categories.CategoryViewModel
+@inject IViewLocalizer localizer
+@{
+    ViewData["Title"] = "Create";
+    var isRTL = CultureInfo.CurrentCulture.Name.StartsWith("ar");
+}
+
+<div style="text-align:right" class="mb-2">
+    <a asp-action="Index" class="btn"><i class="fa-solid fa-angles-left"></i>@localizer["Back to List"]</a>
+</div>
+<div class="row justify-content-center">
+
+    <div class="card col-lg-6  col-md-9 col-sm-12 px-2">
+
+
+        <div class="my-2" style="text-align: center;">
+
+            <h4 style="color:#FAB005" class="my-4 ">@localizer["Create New Category"]</h4>
+
+        </div>
+    
+        <form asp-action="Create" enctype="multipart/form-data"  >
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        
+            <div class="form-group">
+                <div class="row my-3" >
+                    <div class=" text-md-center col-md-4">
+                <label asp-for="NameEN" class="control-label"></label>
+                    </div>
+                    <div class="col-md-8">
+                <input asp-for="NameEN" class="form-control" />
+                <span asp-validation-for="NameEN" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row my-3">
+                    <div class="text-md-center col-md-4">
+                <label asp-for="NameAR" class="control-label"></label>
+                    </div>
+                    <div class="col-md-8">
+                <input asp-for="NameAR" class="form-control" />
+                <span asp-validation-for="NameAR" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            @*ImagesURL*@
+            <div class="form-group">
+                <div class="row my-3">
+                    <div class="text-md-center col-md-4">
+                <label asp-for="ImageFile" class="control-label"></label>
+                    </div>
+                    <div class="col-md-8">
+                <input asp-for="ImageFile" class="form-control" accept="image/*" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            
+            @*Categories*@
+            <div class="form-group">
+                <div class="row my-3">
+                    <div class="text-md-center col-md-4">
+                <label asp-for="ParentCategoryId" class="control-label"></label>
+                    </div>
+                    <div class="col-md-8">
+                        @if(!isRTL){
+                        <select asp-for="ParentCategoryId" class="form-select" asp-items="ViewBag.CategoriesEN">
+                    <option value="0" selected disabled>Select Parent Categorie</option>
+                    <option value="0">Select No Parent Categorie</option>
+                </select>}
+                else{
+                     <select asp-for="ParentCategoryId" class="form-select" asp-items="ViewBag.CategoriesAR">
+                            <option value="0" selected disabled>@localizer["Select Parent Category"]</option>
+                            <option value="0">@localizer["No Parent Category"]</option>
+                </select>
+                }
+                <span asp-validation-for="ParentCategoryId" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+           <div style="text-align:center" >
+               
+                <button class="mb-2" style="width:150px;"  type="submit">@localizer["Create"]</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #F0F1F3;
+    }
+
+    .card {
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+    }
+
+    h6,
+    h1 {
+        color: #FAB005;
+        font-family: cursive;
+    }
+
+    label,
+    h4,
+    p {
+        font-family: cursive;
+        color: #183153;
+    }
+
+    input {
+        border: 10px #183153;
+    }
+
+    .icon {
+        position: absolute;
+        top: calc(43%);
+        left: 1.8rem;
+    }
+
+    .iconn {
+        position: absolute;
+        top: calc(58%);
+        left: 1.8rem;
+    }
+
+    .btn {
+        border-radius: 10px;
+        background-color: #63E6BE;
+        color: #183153;
+        height: 50px;
+        border-top: 2px solid #183153;
+        border-left: 2px solid #183153;
+        border-right: 2px solid #183153;
+        border-bottom: 8px solid #183153;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+        .btn:hover {
+            border-radius: 10px;
+            background-color: #0CA678;
+            color: #183153;
+            height: 50px;
+            border-top: 2px solid #183153;
+            border-left: 2px solid #183153;
+            border-right: 2px solid #183153;
+            border-bottom: 8px solid #183153;
+            font-family: cursive;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+
+    button {
+        border-radius: 10px;
+        background-color: #FFD43B;
+        color: #183153;
+        height: 50px;
+        border-top: 2px solid #183153;
+        border-left: 2px solid #183153;
+        border-right: 2px solid #183153;
+        border-bottom: 8px solid #183153;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+        button:hover {
+            background-color: #FAB005;
+        }
+</style>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+

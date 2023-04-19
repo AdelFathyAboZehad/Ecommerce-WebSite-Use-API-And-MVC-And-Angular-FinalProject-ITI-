@@ -1,0 +1,276 @@
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\appsettings.Development.json
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\appsettings.json
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\libman.json
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\FinalProjectAPI.exe
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\FinalProjectAPI.deps.json
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\FinalProjectAPI.runtimeconfig.json
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\FinalProjectAPI.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\FinalProjectAPI.pdb
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Azure.Core.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Azure.Identity.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\FluentValidation.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Humanizer.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\MediatR.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\MediatR.Contracts.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\System.CodeDom.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\System.Memory.Data.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Application.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\DBContext.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Domian.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Dtos.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\InfraStructure.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Application.pdb
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\DBContext.pdb
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Domian.pdb
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\InfraStructure.pdb
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\bin\Debug\net7.0\Dtos.pdb
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.csproj.AssemblyReference.cache
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.AssemblyInfoInputs.cache
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.AssemblyInfo.cs
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.csproj.CoreCompileInputs.cache
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\staticwebassets\msbuild.FinalProjectAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.FinalProjectAPI.props
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.FinalProjectAPI.props
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.FinalProjectAPI.props
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\staticwebassets.pack.json
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\staticwebassets.build.json
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\staticwebassets.development.json
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\scopedcss\bundle\FinalProjectAPI.styles.css
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.csproj.CopyComplete
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\refint\FinalProjectAPI.dll
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.pdb
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.genruntimeconfig.cache
+D:\ITI_FinalProject_V_2.5\FinalProjectAPI\obj\Debug\net7.0\ref\FinalProjectAPI.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\appsettings.json
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\libman.json
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\FinalProjectAPI.exe
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\FinalProjectAPI.deps.json
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\FinalProjectAPI.runtimeconfig.json
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\FinalProjectAPI.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\FinalProjectAPI.pdb
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\MediatR.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Application.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\DBContext.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Domian.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Dtos.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\InfraStructure.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Application.pdb
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\DBContext.pdb
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Domian.pdb
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\InfraStructure.pdb
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\bin\Debug\net7.0\Dtos.pdb
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.csproj.AssemblyReference.cache
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.AssemblyInfoInputs.cache
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.AssemblyInfo.cs
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\staticwebassets\msbuild.FinalProjectAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.FinalProjectAPI.props
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.FinalProjectAPI.props
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.FinalProjectAPI.props
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\scopedcss\bundle\FinalProjectAPI.styles.css
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.csproj.CopyComplete
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\refint\FinalProjectAPI.dll
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.pdb
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.genruntimeconfig.cache
+C:\Users\Mohamed\Desktop\clonnne\New folder\EcommerceAPIAndMVC\FinalProjectAPI\obj\Debug\net7.0\ref\FinalProjectAPI.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\appsettings.Development.json
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\appsettings.json
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\libman.json
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\FinalProjectAPI.exe
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\FinalProjectAPI.deps.json
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\FinalProjectAPI.runtimeconfig.json
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\FinalProjectAPI.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\FinalProjectAPI.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Azure.Core.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Azure.Identity.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\FluentValidation.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Humanizer.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\MediatR.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\MediatR.Contracts.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\System.CodeDom.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\System.Drawing.Common.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\System.Memory.Data.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Application.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\DBContext.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Domian.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Dtos.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\InfraStructure.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Application.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\DBContext.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Domian.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\InfraStructure.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\bin\Debug\net7.0\Dtos.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.csproj.AssemblyReference.cache
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.GeneratedMSBuildEditorConfig.editorconfig
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.AssemblyInfoInputs.cache
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.AssemblyInfo.cs
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.csproj.CoreCompileInputs.cache
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.MvcApplicationPartsAssemblyInfo.cache
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\staticwebassets\msbuild.FinalProjectAPI.Microsoft.AspNetCore.StaticWebAssets.props
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.FinalProjectAPI.props
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.FinalProjectAPI.props
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.FinalProjectAPI.props
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\staticwebassets.pack.json
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\staticwebassets.build.json
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\staticwebassets.development.json
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\scopedcss\bundle\FinalProjectAPI.styles.css
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.csproj.CopyComplete
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\refint\FinalProjectAPI.dll
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.pdb
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\FinalProjectAPI.genruntimeconfig.cache
+G:\FinalProjectAPIAndMVC\FinalProject\FinalProjectAPI\obj\Debug\net7.0\ref\FinalProjectAPI.dll

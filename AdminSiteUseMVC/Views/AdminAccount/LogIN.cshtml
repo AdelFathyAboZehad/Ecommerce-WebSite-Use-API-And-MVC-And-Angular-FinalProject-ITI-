@@ -1,0 +1,188 @@
+﻿@model AdminSiteUseMVC.ViewModel.Admin.LoginModel
+
+@{
+    ViewData["Title"] = "LogIN";
+    Layout = null;
+}
+
+@*<h1>LogIN</h1>
+
+<h4>LoginModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="LogIN">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="RememberMe" /> @Html.DisplayNameFor(model => model.RememberMe)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+*@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/adc5c6a0d2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #F0F1F3;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 25px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+        }
+
+        h6,
+        h1 {
+            color: #FAB005;
+            font-family: cursive;
+        }
+
+        label,
+        h4,
+        a,
+        p {
+            font-family: cursive;
+            color: #183153;
+        }
+
+        input {
+            border: 10px #183153;
+        }
+
+        .icon {
+            position: absolute;
+            top: calc(43%);
+            left: 1.8rem;
+        }
+
+        .iconn {
+            position: absolute;
+            top: calc(58%);
+            left: 1.8rem;
+        }
+
+        a {
+            text-decoration: underline dotted;
+            color: #4993DB;
+        }
+
+            a:hover {
+                color: #183153;
+            }
+
+        button {
+            border-radius: 10px;
+            background-color: #FFD43B;
+            height: 50px;
+            border-top: 2px solid #183153;
+            border-left: 2px solid #183153;
+            border-right: 2px solid #183153;
+            border-bottom: 8px solid #183153;
+            font-family: cursive;
+            font-weight: bold;
+            font-size: 16px;
+            width:100%;
+            color: #183153;
+        }
+
+            button:hover {
+                background-color: #FAB005;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class=" row justify-content-center my-4 ">
+            <div class="card col-lg-4 col-md-6 col-sm-9 py-5 ">
+                <div style="text-align: center;">
+
+                    <h6 class="mt-4">WELCOME BACK</h6>
+
+
+                </div>
+                <div style="text-align: center;">
+                    <h1 class="mt-4"><i class="fa-solid fa-face-smile-beam " style="font-size: larger;"></i></h1>
+                </div>
+
+                <div style="text-align: center;">
+
+                    <h4 class="mt-4 text-dark">Sign In to Your Account</h4>
+
+                </div>
+                <form class="mx-3" asp-action="LogIN">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="mb-3 ">
+                        <label asp-for="UserName" class="form-label">UserName</label>
+                       @* <i class="icon fa-solid fa-user mx-2"></i>*@
+
+                        <input asp-for="UserName" type="text" class="form-control px-5">
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+
+                        </div>
+                    <div class="mb-3">
+
+                        <label asp-for="Password"  class="form-label">Password</label>
+                       @* <i class="iconn fa-solid fa-lock fa-lg mx-2"></i>*@
+                        <input asp-for="Password" type="password" class="form-control px-5" >
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <label  class="form-check-label">
+                            <input class="form-check-input" asp-for="RememberMe" /> Remember me
+                        </label>
+
+                      @*  <input asp-for="RememberMe" type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1"></label>*@
+                    </div>
+
+                    <div style="text-align:center;" class="my-3"><a asp-action="ForgotPassword" >Forgot your password?</a></div>
+
+                    
+                        <button type="submit" >Sign In <i class="fa-solid fa-right-to-bracket"></i></button>
+                   
+                   
+                </form>
+                <div class="mt-3" style="text-align: center;">
+                    <p>Don't have an account?<a asp-action="SignUp"> Sign up !</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</body>
+
+</html>
+

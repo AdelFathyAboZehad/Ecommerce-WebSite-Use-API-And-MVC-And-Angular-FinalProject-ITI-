@@ -1,0 +1,548 @@
+@using Microsoft.AspNetCore.Mvc.Localization;
+@using System.Globalization
+@using Domian;
+
+
+@inject IViewLocalizer localizer
+
+
+@{
+    var isRTL = CultureInfo.CurrentCulture.Name.StartsWith("ar");
+}
+
+    <!DOCTYPE html>
+    <html lang="@(isRTL ? "ar" : "en")" dir="@(isRTL ? "RTL" : "LTR")">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+        <title>Dashboard - Amazon Ecommerce </title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+
+        <!-- Favicons -->
+        <link href="/assets/img/favicon.png" rel="icon">
+        <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+        <script src="https://kit.fontawesome.com/adc5c6a0d2.js" crossorigin="anonymous"></script>
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.gstatic.com" rel="preconnect">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/adc5c6a0d2.js" crossorigin="anonymous"></script>
+        <!-- Vendor CSS Files -->
+        <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        @if (isRTL)
+        {
+            @*<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">*@
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-DOXMLfHhQkvFFp+rWTZwVlPVqdIhpDVYT9csOnHSgWQWPX0v5MCGtjCJbY6ERspU" crossorigin="anonymous">
+
+        }
+
+        <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link href="/assets/vendor/quill/quill.snow.css" rel="stylesheet">
+        <link href="/assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+        <link href="/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+        <link href="/assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+        @if(isRTL)
+        {
+                <link href="/assets/css/style2.css" rel="stylesheet">
+            
+        }else
+            {
+
+                <link href="/assets/css/style.css" rel="stylesheet">
+            }
+
+
+        @*dir="@(isRTL ? "RTL" : "LTR")"*@
+
+
+
+        <!-- =======================================================
+        * Template Name: NiceAdmin
+        * Updated: Mar 09 2023 with Bootstrap v5.2.3
+        * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+        * Author: BootstrapMade.com
+        * License: https://bootstrapmade.com/license/
+        ======================================================== -->
+
+
+    </head>
+
+    <body>
+
+        <!-- ======= Header ======= -->
+        <header id="header" class="header fixed-top d-flex align-items-center" style="background-color:white;color:#303C54">
+
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="#" class="logo d-flex align-items-center">
+                    <img src="/assets/img/logo.png" alt="...">
+
+                </a>
+                <i class="bi bi-list toggle-sidebar-btn" style="color:#3C4B64"></i>
+            </div><!-- End Logo -->
+
+            <div class="search-bar">
+                <form class="search-form d-flex align-items-center" method="POST" action="#">
+                    <input type="search" name="query" placeholder="Search" class="form-control">
+                    <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+                </form>
+            </div><!-- End Search Bar -->
+
+            <nav class="header-nav ms-auto">
+                <ul class="d-flex align-items-center">
+
+                    <li class="nav-item d-block d-lg-none">
+                        <a class="nav-link nav-icon search-bar-toggle " href="#">
+                            <i class="bi bi-search"></i>
+                        </a>
+                    </li><!-- End Search Icon-->
+                    <!--Add Localization-->
+                    <li>
+                        <div>
+                            <partial name="_SelectLanguage" />
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+                            <i style="color:#303C54" class="bi bi-bell"></i>
+                            <span class="badge bg-primary badge-number">4</span>
+                        </a><!-- End Notification Icon -->
+
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+                            <li class="dropdown-header">
+                                You have 4 new notifications
+                                <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li class="notification-item">
+                                <i class="bi bi-exclamation-circle text-warning"></i>
+                                <div>
+                                    <h4>Lorem Ipsum</h4>
+                                    <p>Quae dolorem earum veritatis oditseno</p>
+                                    <p>30 min. ago</p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li class="notification-item">
+                                <i class="bi bi-x-circle text-danger"></i>
+                                <div>
+                                    <h4>Atque rerum nesciunt</h4>
+                                    <p>Quae dolorem earum veritatis oditseno</p>
+                                    <p>1 hr. ago</p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li class="notification-item">
+                                <i class="bi bi-check-circle text-success"></i>
+                                <div>
+                                    <h4>Sit rerum fuga</h4>
+                                    <p>Quae dolorem earum veritatis oditseno</p>
+                                    <p>2 hrs. ago</p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li class="notification-item">
+                                <i class="bi bi-info-circle text-primary"></i>
+                                <div>
+                                    <h4>Dicta reprehenderit</h4>
+                                    <p>Quae dolorem earum veritatis oditseno</p>
+                                    <p>4 hrs. ago</p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li class="dropdown-footer">
+                                <a href="#">Show all notifications</a>
+                            </li>
+
+                        </ul><!-- End Notification Dropdown Items -->
+
+                    </li><!-- End Notification Nav -->
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+                            <i style="color:#303C54" class="bi bi-chat-left-text"></i>
+                            <span class="badge bg-success badge-number">3</span>
+                        </a><!-- End Messages Icon -->
+
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+                            <li class="dropdown-header">
+                                You have 3 new messages
+                                <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li class="message-item">
+                                <a href="#">
+                                    <img src="/assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                                    <div>
+                                        <h4>Maria Hudson</h4>
+                                        <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                                        <p>4 hrs. ago</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li class="message-item">
+                                <a href="#">
+                                    <img src="/assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                                    <div>
+                                        <h4>Anna Nelson</h4>
+                                        <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                                        <p>6 hrs. ago</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li class="message-item">
+                                <a href="#">
+                                    <img src="/assets/img/messages-3.jpg" alt="" class="rounded-circle">
+                                    <div>
+                                        <h4>David Muldon</h4>
+                                        <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                                        <p>8 hrs. ago</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li class="dropdown-footer">
+                                <a href="#">Show all messages</a>
+                            </li>
+
+                        </ul><!-- End Messages Dropdown Items -->
+
+                    </li><!-- End Messages Nav -->
+
+                    <li class="nav-item dropdown pe-3">
+
+                        <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                            <img src="/assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+                            <span style="color:#303C54" class="d-none d-md-block dropdown-toggle ps-2">@User.Identity.Name</span>
+                        </a><!-- End Profile Iamge Icon -->
+
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                            <li class="dropdown-header">
+                                <h6>@User.Identity.Name</h6>
+                                <span>Admin</span>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                                    <i class="bi bi-person"></i>
+                                    <span>My Profile</span>
+                                </a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" asp-action="Edit" asp-controller="Admin">
+                                    <i class="bi bi-gear"></i>
+                                    <span>Account Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+
+                            <li>
+                            <a class="dropdown-item d-flex align-items-center" asp-action="ChangePassword" asp-controller="AdminAccount">
+                                    <i class="bi bi-question-circle"></i>
+                                    <span>Change Password</span>
+                                </a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li>
+                                <a asp-controller="AdminAccount" asp-action="LogOut" class="dropdown-item d-flex align-items-center">
+                                    <i class="bi bi-box-arrow-right"></i>
+                                    <span>Sign Out</span>
+                                </a>
+                            </li>
+
+
+                        </ul><!-- End Profile Dropdown Items -->
+                    </li><!-- End Profile Nav -->
+
+
+                </ul>
+
+            </nav><!-- End Icons Navigation -->
+
+        </header><!-- End Header -->
+        <!-- ======= Sidebar ======= -->
+        <aside id="sidebar" class="sidebar " style="background-color:#3C4B64">
+
+
+            <ul class="sidebar-nav" id="sidebar-nav">
+
+                <li class="nav-item">
+                    <a style="background-color:#303C54;color:white;border-radius:25px" class="nav-link " href="index.html">
+                        <i style="color:white" class="bi bi-grid mx-2"></i>
+                    <span>@localizer["Dashboard"]</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a asp-controller="Admin" asp-action="Index" style="background-color:#303C54;color:white;border-radius:25px" class="nav-link ">
+                        <i style="color:white" class="fa-brands fa-vaadin mx-2"></i>
+
+                    <span>@localizer["Admin"]</span>
+                    </a>
+                </li><!-- End Dashboard Nav -->
+
+                <li class="nav-item" style="background-color:#303C54;color:white;border-radius:25px">
+                    <a style="background-color:#303C54;color:white;border-radius:25px" class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+                        <i style="color:white" class="fa-brands fa-product-hunt mx-2 "></i><span>@localizer["Product"]</span><i class="bi bi-chevron-down ms-auto"></i>
+                    </a>
+                    <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                        <li>
+                            <a style="background-color:#303C54;color:white;border-radius:25px" asp-controller="Products" asp-action="Index">
+                                <i style="color:white" class="bi bi-circle mx-2"></i><span>@localizer["All Products"]</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a style="background-color:#303C54;color:white;border-radius:25px" asp-controller="Products" asp-action="Create">
+                                <i style="color:white" class="bi bi-circle mx-2"></i><span>@localizer["Create New Product"]</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li><!-- End Components Nav -->
+
+                <li class="nav-item" style="background-color:#303C54;color:white;border-radius:25px">
+                    <a style="background-color:#303C54;color:white;border-radius:25px" class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+                        <i style="color:white" class="fa-solid fa-list mx-2"></i><span>@localizer["Category"]</span><i class="bi bi-chevron-down ms-auto"></i>
+                    </a>
+                    <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                        <li>
+                            <a style="background-color:#303C54;color:white;border-radius:25px" asp-controller="Categories" asp-action="Index">
+                                <i style="color:white" class="bi bi-circle mx-2"></i><span>@localizer["All Categories"]</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a style="background-color:#303C54;color:white;border-radius:25px" asp-controller="Categories" asp-action="Create">
+                                <i style="color:white" class="bi bi-circle mx-2"></i><span>@localizer["Create New Category"]</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li><!-- End Forms Nav -->
+
+                <li class="nav-item" style="background-color:#303C54;color:white;border-radius:25px">
+                    <a style="background-color:#303C54;color:white;border-radius:25px" class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+                        <i style="color:white" class="fa-solid fa-code-branch mx-2"></i><span>@localizer["Brand"]</span><i class="bi bi-chevron-down ms-auto"></i>
+                    </a>
+                    <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                        <li>
+                            <a style="background-color:#303C54;color:white;border-radius:25px" asp-controller="Brands" asp-action="Index">
+                                <i style="color:white" class="bi bi-circle mx-2"></i><span>@localizer["All Brands"]</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a style="background-color:#303C54;color:white;border-radius:25px" asp-controller="Brands" asp-action="Create">
+                                <i style="color:white" class="bi bi-circle mx-2"></i><span>@localizer["Create New Brand"]</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li><!-- End Tables Nav -->
+
+                <li class="nav-item" style="background-color:#303C54;color:white;border-radius:25px">
+                    <a style="background-color:#303C54;color:white;border-radius:25px" class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+                        <i style="color:white" class="fa-solid fa-cubes mx-2"></i><span>@localizer["Stock"]</span><i class="bi bi-chevron-down ms-auto"></i>
+                    </a>
+                    <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                        <li>
+                            <a style="background-color:#303C54;color:white;border-radius:25px" asp-controller="Stocks" asp-action="Index">
+                                <i style="color:white" class="bi bi-circle mx-2"></i><span>@localizer["All Stocks"]</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a style="background-color:#303C54;color:white;border-radius:25px" asp-controller="Stocks" asp-action="Create">
+                                <i style="color:white" class="bi bi-circle mx-2"></i><span>@localizer["Create New Stock"]</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li><!-- End Charts Nav -->
+
+                @*<li class="nav-item" style="background-color:#303C54;color:white;border-radius:25px">
+                    <a style="background-color:#303C54;color:white;border-radius:25px" class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+                        <i style="color:white" class="fa-solid fa-credit-card mx-2 "></i><span>@localizer["Shopping Method"]</span><i class="bi bi-chevron-down ms-auto"></i>
+                    </a>
+                    <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                        <li>
+                            <a style="background-color:#303C54;color:white;border-radius:25px" asp-controller="ShoppingMethods" asp-action="Index">
+                                <i style="color:white" class="bi bi-circle mx-2"></i><span>@localizer["All Shopping Methods"]</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a style="background-color:#303C54;color:white;border-radius:25px" asp-controller="ShoppingMethods" asp-action="Create">
+                                <i style="color:white" class="bi bi-circle mx-2"></i><span>@localizer["Create Shopping Method"]</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li><!-- End Icons Nav -->*@
+
+     
+
+                <li class="nav-item" style="background-color:#303C54;color:white;border-radius:25px">
+                    <a style="background-color:#303C54;color:white;border-radius:25px" class="nav-link collapsed" asp-controller="Orders" asp-action="Index">
+                        <i style="color:white" class="fa-solid fa-cart-shopping mx-2"></i>
+                        <span>@localizer["Orders"]</span>
+                    </a>
+                </li><!-- End Profile Page Nav -->
+
+             
+
+                   <li class="nav-item" style="background-color:#303C54;color:white;border-radius:25px">
+                <a style="background-color:#303C54;color:white;border-radius:25px" class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+                    <i style="color:white" class="fa-solid fa-credit-card mx-2 "></i><span>@localizer["Shopping Method"]</span><i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                    <li>
+                        <a style="background-color:#303C54;color:white;border-radius:25px" asp-controller="ShoppingMethods" asp-action="Index">
+                            <i style="color:white" class="bi bi-circle mx-2"></i><span>@localizer["All Shopping Methods"]</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a style="background-color:#303C54;color:white;border-radius:25px" asp-controller="ShoppingMethods" asp-action="Create">
+                            <i style="color:white" class="bi bi-circle mx-2"></i><span>@localizer["Create Shopping Method"]</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+                <!-- End F.A.Q Page Nav -->
+
+            <li class="nav-item" style="background-color:#303C54;color:white;border-radius:25px">
+                <a style="background-color:#303C54;color:white;border-radius:25px" class="nav-link collapsed" data-bs-target="#icons-nav1" data-bs-toggle="collapse" href="#">
+                    <i style="color:white" class="fa-solid fa-file mx-2 "></i><span>@localizer["Pages"]</span><i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul id="icons-nav1" class="nav-content collapse " data-bs-parent="#sidebar-nav1">
+                    <li>
+                        <a style="background-color:#303C54;color:white;border-radius:25px" asp-controller="AdminAccount" asp-action="LogIN">
+                            <i style="color:white" class="bi bi-circle mx-2 "></i><span>@localizer["Login"]</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a style="background-color:#303C54;color:white;border-radius:25px" asp-controller="AdminAccount" asp-action="SignUp">
+                            <i style="color:white" class="bi bi-circle mx-2 "></i><span>@localizer["Register"]</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a style="background-color:#303C54;color:white;border-radius:25px" asp-controller="AdminAccount" asp-action="AddRole">
+                            <i style="color:white" class="bi bi-circle mx-2 "></i><span>@localizer["Add Role"]</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="nav-item " style="background-color:#303C54;color:white;border-radius:25px">
+                <a style="background-color:#303C54;color:white;border-radius:25px" class="nav-link collapsed" asp-controller="UserReviews" asp-action="Index">
+                    <i style="color:white" class="fa-solid fa-thumbs-up mx-2"></i>
+                    <span>@localizer["User Reviews"]</span>
+                </a>
+            </li>
+
+
+
+
+
+
+
+
+
+            </ul>
+
+        </aside><!-- End Sidebar-->
+
+
+        <main id="main" class="main" style="min-height:570px;background-color:#F0F1F3">
+
+            @RenderBody()
+
+        </main><!-- End #main -->
+        <!-- ======= Footer ======= -->
+        <footer id="footer" class="footer" style="background-color:#F3F3F3">
+            <div class="copyright">
+                &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+                Designed by <a href="https://bootstrapmade.com/">Team1Description(English)</a>
+            </div>
+        </footer><!-- End Footer -->
+
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+        <!-- Vendor JS Files -->
+        <script src="/assets/vendor/apexcharts/apexcharts.min.js"></script>
+        <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="/assets/vendor/chart.js/chart.umd.js"></script>
+        <script src="/assets/vendor/echarts/echarts.min.js"></script>
+        <script src="/assets/vendor/quill/quill.min.js"></script>
+        <script src="/assets/vendor/simple-datatables/simple-datatables.js"></script>
+        <script src="/assets/vendor/tinymce/tinymce.min.js"></script>
+        <script src="/assets/vendor/php-email-form/validate.js"></script>
+
+        <!-- Template Main JS File -->
+        <script src="/assets/js/main.js"></script>
+
+        <script src="/lib/jquery/dist/jquery.js"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
+
+    </html>
+
+
+
+
+    
+
